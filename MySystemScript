@@ -1,1 +1,15 @@
+#!/bin/bash
 
+##checkyoursystem
+
+echo "Memory:"
+
+free -m
+
+echo "Disk Usage:"
+
+df -Th && lsblk
+
+echo "loadaverage"
+
+uptime
